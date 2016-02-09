@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="header">
+            <div class="pdfimage"><img src="images/pdf.png" /></div>
+
+            <div class="hearedtext"><span>Please fill out this form to begin downloading.</span></div>
+        </div>
+        <hr noshade />
+        <form id="myForm"  class="chapter-08">
+            <div id="personalDetails">
+                <div class="leftfields">
+                    <div class="formfield">
+                        <div class="pdetails">FirstName:*</div>
+                        <div>
+                            <input type="text" id="fnametxt" required />
+                        </div>
+                    </div>
+                    <div class="formfield">
+                        <div class="pdetails">Lastname:*</div>
+                        <div><input type="text" id="lnametxt" required /></div>
+                    </div>
+                    <div class="formfield">
+                        <div class="pdetails">Email:*</div>
+                        <div><input type="email" id="emailtxt" required /></div>
+                    </div>
+                    <div class="formfield">
+                        <div class="pdetails">Password:</div>
+                        <div><input type="password" id="pwdtxt"/></div>
+                    </div>
+                </div>
+                <div class="rightfields">
+                    <div class="formfield">
+                        <div class="pdetails">Company:*</div>
+                        <div>
+                            <input type="text" id="companytxt" required />
+                        </div>
+                    </div>
+                    <div class="formfield">
+                        <div class="pdetails">Website:*</div>
+                        <div><input type="text" id="webtxt" required /></div>
+                    </div>
+                    <div class="formfield">
+                        <div class="pdetails">Position:</div>
+                        <div>
+                            <select id="positiondropdown">
+                                <option value="">--Select---</option>
+                                <option value="Developer">Developer</option>
+                                <option value="Network Engg.">Network Engg.</option>
+                                <option value="BPO">BPO</option>
+                                <option value="Database admin">Database admin</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="formfield">
+                        <div class="pdetails">Phone:*</div>
+                        <div><input type="tel" id="phonetxt" pattern="\d*" required /></div>
+                    </div>
+                </div>
+                <div id="passnote">
+                    *Setting password will allow you to log back in and see our documents any time.
+                </div>
+            </div>
+            <hr noshade />
+            <div id="serviceDetails">
+                <div>
+                    PRIMARY service or product of interst:*
+                </div>
+                <div>
+                    <select id="primaryservice" required>
+                        <option value="">--Select---</option>
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                        <option value="Option 4">Option 4</option>
+                    </select>
+                </div>
+                <div>OTHER service or product of interst:</div>
+                <div>
+                    <input type="checkbox" id="os" /> Online Strategy</br>
+                    <input type="checkbox" id="wdd" /> Web Design and Development</br>
+                    <input type="checkbox" id="snoc" /> Social Networking and Online Community</br>
+                    <input type="checkbox" id="ioc" /> Integrated Online Campaigns </br>
+                    <input type="checkbox" id="emssdd" /> Email Marketing Services (Strategy,Design,Development)</br>
+                    <input type="checkbox" id="ems" /> Email Marketing Software</br>
+                </div>
+            </div>
+            <hr noshade />
+            <div id="solutionDetails">
+                <div>When are you looking to implement a solution?* </div>
+                <div>
+                    <select id="soltime" required>
+                        <option value="">--Select---</option>
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                        <option value="Option 4">Option 4</option>
+                    </select>
+                </div>
+                <br />
+            </div>
+            <hr noshade />
+            <div id="saveDetails">
+                <div>Yes ! Suubscribe to Email Marketing News.</div>
+                <input type="checkbox" id="receiveemail" />Reacive feature and best practice articleson email marketing ,</br>
+                &nbsp;&nbsp;design and online strategy.
+                <div><input id="savebtn" type="submit" onclick="savedata();" value="Save"  /></div>
+            </div>
+            </form>
+            <div id="footer">
+
+            </div>
+</div>
+    <script type="text/javascript" src="Javascript/main.js"></script>
+</body>
+</html>

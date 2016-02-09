@@ -1,0 +1,74 @@
+
+body {
+    color: white;
+    font-family: cursive;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,141414+0,5a5a5a+0,727272+0,242424+1,242424+28,3d3d3d+46,3d3d3d+46,3d3d3d+47,3d3d3d+47,3d3d3d+52,262626+72,262626+72,262626+86,2e2e2e+97,2e2e2e+97,2e2e2e+100,262626+100,3c3c3c+100,262626+101,3d3d3d+101 */
+    background: #666666; /* Old browsers */
+    background: -moz-linear-gradient(left, #666666 0%, #141414 0%, #5a5a5a 0%, #727272 0%, #242424 1%, #242424 28%, #3d3d3d 46%, #3d3d3d 46%, #3d3d3d 47%, #3d3d3d 47%, #3d3d3d 52%, #262626 72%, #262626 72%, #262626 86%, #2e2e2e 97%, #2e2e2e 97%, #2e2e2e 100%, #262626 100%, #3c3c3c 100%, #262626 101%, #3d3d3d 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #666666 0%,#141414 0%,#5a5a5a 0%,#727272 0%,#242424 1%,#242424 28%,#3d3d3d 46%,#3d3d3d 46%,#3d3d3d 47%,#3d3d3d 47%,#3d3d3d 52%,#262626 72%,#262626 72%,#262626 86%,#2e2e2e 97%,#2e2e2e 97%,#2e2e2e 100%,#262626 100%,#3c3c3c 100%,#262626 101%,#3d3d3d 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #666666 0%,#141414 0%,#5a5a5a 0%,#727272 0%,#242424 1%,#242424 28%,#3d3d3d 46%,#3d3d3d 46%,#3d3d3d 47%,#3d3d3d 47%,#3d3d3d 52%,#262626 72%,#262626 72%,#262626 86%,#2e2e2e 97%,#2e2e2e 97%,#2e2e2e 100%,#262626 100%,#3c3c3c 100%,#262626 101%,#3d3d3d 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#3d3d3d',GradientType=1 ); /* IE6-9 */
+}
+
+img {
+    height: 77px;
+    width: 71px;
+    margin-top:35px;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+}
+
+.pdfimage {
+    float: left;
+}
+
+.hearedtext {
+    padding-top: 55px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+
+.pdetails {
+    float: left;
+    width: 110px;
+}
+
+.formfield {
+    margin: 20px;
+}
+
+#personalDetails {
+    height: 260px;
+}
+
+.formfield input, .formfield select {
+    margin-left: 30px;
+    width: 180px;
+    height: 20px;
+}
+
+.leftfields, .rightfields {
+    float: left;
+    width: 50%;
+}
+
+#passnote {
+    clear: left;
+}
+
+select {
+    width: 180px;
+    height: 20px;
+    border-radius: 10px;   
+}
+
+#savebtn {
+    margin-top:20px;
+    background-color: yellow;
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+}
