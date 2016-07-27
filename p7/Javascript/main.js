@@ -43,5 +43,6 @@ function savedata() {
 function storedata(queryString) {  
     db.transaction(function (tx) {                
         tx.executeSql(queryString);
+        alert("Form data Stored in Web-Database.")
     })
 };
